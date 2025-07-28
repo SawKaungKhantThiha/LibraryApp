@@ -20,10 +20,11 @@ const upload = multer({ storage });
 
 // MySQL connection pool
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'Republic_C207',
-    database: 'librarydb',
+    host: 'zsp64e.h.filess.io',
+    port: 3307,
+    user: 'LibraryDB_coldmerely',
+    password: 'a78327d540ed00af78012898e5f20f777af6e10f',
+    database: 'LibraryDB_coldmerely',
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,
